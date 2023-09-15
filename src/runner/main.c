@@ -28,8 +28,10 @@ int main(void) {
         mouse_pos = GetMousePosition();
         if (IsMouseButtonPressed(MOUSE_BUTTON_LEFT) && mouse_pos.x <= screenWidth && mouse_pos.y <= screenHeight) {
             mapping_idx board_idx = match_board(mouse_pos.y, mouse_pos.x);
-            if(board[board_idx.i][board_idx.j] == 'x') board[board_idx.i][board_idx.j] = 'M';
-            else board[board_idx.i][board_idx.j] = 'x';
+            if(board_idx.i != 8 && board_idx.j != 8){
+                if(board[board_idx.i][board_idx.j] == 'x') board[board_idx.i][board_idx.j] = 'M';
+                else board[board_idx.i][board_idx.j] = 'x';
+            }
         }
 
         if(IsMouseButtonPressed(MOUSE_BUTTON_LEFT)  && mouse_pos.y > screenHeight){

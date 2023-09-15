@@ -11,6 +11,7 @@ mapping_idx match_board(float x, float y){
     else if(x >= 491 && x <= 568) ans.i = 5;
     else if(x >= 577 && x <= 654) ans.i = 6;
     else if(x >= 667 && x <= 748) ans.i = 7;
+    else ans.i = 8;
 
     if(y >= 63 && y <= 137) ans.j = 0;
     else if(y >= 147 && y <= 220) ans.j = 1;
@@ -20,6 +21,7 @@ mapping_idx match_board(float x, float y){
     else if(y >= 491 && y <= 568) ans.j = 5;
     else if(y >= 577 && y <= 654) ans.j = 6;
     else if(y >= 667 && y <= 748) ans.j = 7;
+    else ans.j = 8;
 
     return ans;
     
