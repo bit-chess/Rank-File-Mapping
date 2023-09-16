@@ -9,7 +9,7 @@ Vector2 origin;
 
 void setup_background(int w, int h){
 
-    image_board = LoadTexture("../assets/board.png"); 
+    image_board = LoadTexture("assets/board.png"); 
 
     recSrc = (Rectangle){0, 0, (float)image_board.width, (float)image_board.height};
     recDest = (Rectangle){0, 0, (float)w, (float)h};

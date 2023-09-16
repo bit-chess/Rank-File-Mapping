@@ -20,7 +20,7 @@ void read_bitboard(char board[8][8]){
     }
 
     printf("\n\n-------------------------------------------\n");
-    printf("- Binary value: %s\n- Decimal value: %ld\n", binary, integer);
+    printf("- Binary value: %s\n- Decimal value: %lld\n", binary, integer);
     printf("-------------------------------------------\n\n");
 
 }

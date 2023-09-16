@@ -1,0 +1,1 @@
+emcc -o index.html bitboard/*.c scene/*.c runner/main.c  -Os -Wall ./../../../raylib/src/libraylib.a -I. -I../../../raylib/src/ -L. -L../../../raylib/src/ -s USE_GLFW=3 -s ASYNCIFY --shell-file ../../../raylib/src/shell.html -DPLATFORM_WEB -s TOTAL_MEMORY=60MB   --preload-file assets  
