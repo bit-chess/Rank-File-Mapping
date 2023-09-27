@@ -6,7 +6,7 @@
 
 void read_bitboard(char board[8][8]){
     char binary[70] = "64'b";
-    int64_t integer = 0;
+    uint64_t integer = 0;
 
     int counter = 0;
     //littler-endian
