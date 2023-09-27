@@ -9,7 +9,10 @@ int main(void) {
     const int screenHeight = 800;
 
     InitWindow(screenWidth, screenHeight + 100, "bit-chess | Board Status");
-
+    
+    SetWindowState(FLAG_WINDOW_RESIZABLE);
+    
+    //SetWindowSize(GetMonitorWidth(GetCurrentMonitor()), GetMonitorHeight(GetCurrentMonitor()));
     setup_background(screenWidth, screenHeight);
     setup_mark();
 
