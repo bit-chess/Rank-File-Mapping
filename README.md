@@ -13,7 +13,7 @@ A única dependência é a biblioteca Raylib que serve para realizar a interface
 O Aplicativo pode ser utilizado em ambiente desktop ou web
 
 ### web
-- Aqui está o link do site: https://bit-chess.github.io/index.html
+- Aqui está o link do site: [https://bit-chess.github.io/index.html](https://bit-chess.github.io/rank-file/index.html)
 
 ##### recomendamos usar em meia tela 
 
